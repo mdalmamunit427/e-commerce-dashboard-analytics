@@ -34,7 +34,7 @@ async function run() {
     // Connect the client to the server	(optional starting in v4.7)
     await client.connect();
 
-    const db = await client.db("aggregation-framework");
+    const db = await client.db("e-commerce-dashboard");
 
 
     // Creating Indexes for faster queries (Important)

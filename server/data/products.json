@@ -1,0 +1,243 @@
+[
+  {
+    "name": "Gaming Laptop",
+    "description": "High-performance gaming laptop with RTX 3080",
+    "price": 1499.99,
+    "category": "Electronics",
+    "stock": 50,
+    "brand": "MSI",
+    "images": ["laptop1.jpg", "laptop2.jpg"],
+    "specifications": {
+      "processor": "Intel i9 12th Gen",
+      "ram": "32GB",
+      "storage": "1TB SSD",
+      "gpu": "RTX 3080"
+    },
+    "createdAt": {"$date": "2024-03-14T00:00:00Z"}
+  },
+  {
+    "name": "Smartphone",
+    "description": "Latest smartphone with 5G capability",
+    "price": 899.99,
+    "category": "Electronics",
+    "stock": 100,
+    "brand": "Samsung",
+    "images": ["phone1.jpg", "phone2.jpg"],
+    "specifications": {
+      "screen": "6.7 inch",
+      "ram": "8GB",
+      "storage": "256GB"
+    },
+    "createdAt": {"$date": "2024-03-14T00:00:00Z"}
+  },
+  {
+    "name": "Running Shoes",
+    "description": "Professional running shoes",
+    "price": 129.99,
+    "category": "Sports",
+    "stock": 75,
+    "brand": "Nike",
+    "images": ["shoes1.jpg", "shoes2.jpg"],
+    "specifications": {
+      "size": "Multiple",
+      "color": "Black/Red",
+      "material": "Mesh"
+    },
+    "createdAt": {"$date": "2024-03-14T00:00:00Z"}
+  },
+  {
+    "name": "Wireless Earbuds",
+    "description": "Noise-cancelling wireless earbuds with long battery life",
+    "price": 199.99,
+    "category": "Electronics",
+    "stock": 200,
+    "brand": "Sony",
+    "images": ["earbuds1.jpg", "earbuds2.jpg"],
+    "specifications": {
+      "batteryLife": "24 hours",
+      "bluetooth": "5.0",
+      "waterResistance": "IPX4"
+    },
+    "createdAt": {"$date": "2024-03-14T00:00:00Z"}
+  },
+  {
+    "name": "Electric Toothbrush",
+    "description": "Rechargeable electric toothbrush with multiple modes",
+    "price": 79.99,
+    "category": "Personal Care",
+    "stock": 150,
+    "brand": "Oral-B",
+    "images": ["toothbrush1.jpg", "toothbrush2.jpg"],
+    "specifications": {
+      "batteryLife": "2 weeks",
+      "modes": "Clean, White, Sensitive",
+      "timer": "2 minutes"
+    },
+    "createdAt": {"$date": "2024-03-14T00:00:00Z"}
+  },
+  {
+    "name": "Smart TV",
+    "description": "4K Ultra HD Smart LED TV with HDR",
+    "price": 1199.99,
+    "category": "Electronics",
+    "stock": 30,
+    "brand": "LG",
+    "images": ["tv1.jpg", "tv2.jpg"],
+    "specifications": {
+      "screenSize": "65 inch",
+      "resolution": "4K",
+      "smartFeatures": "WebOS"
+    },
+    "createdAt": {"$date": "2024-03-14T00:00:00Z"}
+  },
+  {
+    "name": "Blender",
+    "description": "High-speed blender with multiple settings",
+    "price": 99.99,
+    "category": "Home Appliances",
+    "stock": 80,
+    "brand": "NutriBullet",
+    "images": ["blender1.jpg", "blender2.jpg"],
+    "specifications": {
+      "power": "1200W",
+      "capacity": "64 oz",
+      "settings": "5 speeds"
+    },
+    "createdAt": {"$date": "2024-03-14T00:00:00Z"}
+  },
+  {
+    "name": "Office Chair",
+    "description": "Ergonomic office chair with lumbar support",
+    "price": 249.99,
+    "category": "Furniture",
+    "stock": 40,
+    "brand": "Herman Miller",
+    "images": ["chair1.jpg", "chair2.jpg"],
+    "specifications": {
+      "material": "Mesh",
+      "adjustableHeight": "Yes",
+      "color": "Black"
+    },
+    "createdAt": {"$date": "2024-03-14T00:00:00Z"}
+  },
+  {
+    "name": "Coffee Maker",
+    "description": "Automatic coffee maker with programmable settings",
+    "price": 149.99,
+    "category": "Home Appliances",
+    "stock": 60,
+    "brand": "Keurig",
+    "images": ["coffee1.jpg", "coffee2.jpg"],
+    "specifications": {
+      "capacity": "12 cups",
+      "programmable": "Yes",
+      "color": "Silver"
+    },
+    "createdAt": {"$date": "2024-03-14T00:00:00Z"}
+  },
+  {
+    "name": "Tablet",
+    "description": "10-inch tablet with high-resolution display",
+    "price": 329.99,
+    "category": "Electronics",
+    "stock": 90,
+    "brand": "Apple",
+    "images": ["tablet1.jpg", "tablet2.jpg"],
+    "specifications": {
+      "screenSize": "10 inch",
+      "storage": "128GB",
+      "os": "iOS"
+    },
+    "createdAt": {"$date": "2024-03-14T00:00:00Z"}
+  },
+  {
+    "name": "Fitness Tracker",
+    "description": "Waterproof fitness tracker with heart rate monitor",
+    "price": 99.99,
+    "category": "Wearable",
+    "stock": 120,
+    "brand": "Fitbit",
+    "images": ["tracker1.jpg", "tracker2.jpg"],
+    "specifications": {
+      "batteryLife": "7 days",
+      "waterResistance": "50m",
+      "connectivity": "Bluetooth"
+    },
+    "createdAt": {"$date": "2024-03-14T00:00:00Z"}
+  },
+  {
+    "name": "Digital Camera",
+    "description": "Compact digital camera with 20MP sensor",
+    "price": 499.99,
+    "category": "Photography",
+    "stock": 25,
+    "brand": "Canon",
+    "images": ["camera1.jpg", "camera2.jpg"],
+    "specifications": {
+      "resolution": "20MP",
+      "zoom": "10x Optical",
+      "video": "4K"
+    },
+    "createdAt": {"$date": "2024-03-14T00:00:00Z"}
+  },
+  {
+    "name": "Air Purifier",
+    "description": "HEPA air purifier with smart sensor",
+    "price": 199.99,
+    "category": "Home Appliances",
+    "stock": 70,
+    "brand": "Dyson",
+    "images": ["purifier1.jpg", "purifier2.jpg"],
+    "specifications": {
+      "coverage": "500 sq ft",
+      "filterType": "HEPA",
+      "smartSensor": "Yes"
+    },
+    "createdAt": {"$date": "2024-03-14T00:00:00Z"}
+  },
+  {
+    "name": "Gaming Console",
+    "description": "Next-gen gaming console with 4K support",
+    "price": 499.99,
+    "category": "Electronics",
+    "stock": 45,
+    "brand": "Sony",
+    "images": ["console1.jpg", "console2.jpg"],
+    "specifications": {
+      "resolution": "4K",
+      "storage": "1TB",
+      "controllers": "2"
+    },
+    "createdAt": {"$date": "2024-03-14T00:00:00Z"}
+  },
+  {
+    "name": "Smartwatch",
+    "description": "Smartwatch with fitness tracking and notifications",
+    "price": 299.99,
+    "category": "Wearable",
+    "stock": 110,
+    "brand": "Garmin",
+    "images": ["watch1.jpg", "watch2.jpg"],
+    "specifications": {
+      "batteryLife": "5 days",
+      "waterResistance": "50m",
+      "connectivity": "Bluetooth, Wi-Fi"
+    },
+    "createdAt": {"$date": "2024-03-14T00:00:00Z"}
+  },
+  {
+    "name": "Laptop Stand",
+    "description": "Adjustable laptop stand for ergonomic use",
+    "price": 39.99,
+    "category": "Office Supplies",
+    "stock": 150,
+    "brand": "Rain Design",
+    "images": ["stand1.jpg", "stand2.jpg"],
+    "specifications": {
+      "material": "Aluminum",
+      "adjustableHeight": "Yes",
+      "color": "Silver"
+    },
+    "createdAt": {"$date": "2024-03-14T00:00:00Z"}
+  }
+]

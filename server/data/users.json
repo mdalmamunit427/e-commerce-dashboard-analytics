@@ -1,0 +1,194 @@
+[
+    {
+      "_id": {"$oid": "65f1234567890123456789b1"},
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john.doe@example.com",
+      "phone": "+1234567890",
+      "address": {
+        "street": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zipCode": "10001",
+        "country": "USA"
+      },
+      "createdAt": {"$date": "2024-03-14T00:00:00Z"},
+      "lastLogin": {"$date": "2024-03-14T00:00:00Z"}
+    },
+    {
+      "_id": {"$oid": "65f1234567890123456789b2"},
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "email": "jane.smith@example.com",
+      "phone": "+1234567891",
+      "address": {
+        "street": "456 Oak Ave",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zipCode": "90001",
+        "country": "USA"
+      },
+      "createdAt": {"$date": "2024-03-14T00:00:00Z"},
+      "lastLogin": {"$date": "2024-03-14T00:00:00Z"}
+    },
+    {
+      "_id": {"$oid": "65f1234567890123456789b3"},
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "email": "alice.johnson@example.com",
+      "phone": "+1234567892",
+      "address": {
+        "street": "789 Pine St",
+        "city": "Chicago",
+        "state": "IL",
+        "zipCode": "60601",
+        "country": "USA"
+      },
+      "createdAt": {"$date": "2024-03-14T00:00:00Z"},
+      "lastLogin": {"$date": "2024-03-14T00:00:00Z"}
+    },
+    {
+      "_id": {"$oid": "65f1234567890123456789b4"},
+      "firstName": "Bob",
+      "lastName": "Brown",
+      "email": "bob.brown@example.com",
+      "phone": "+1234567893",
+      "address": {
+        "street": "321 Maple Ave",
+        "city": "Houston",
+        "state": "TX",
+        "zipCode": "77001",
+        "country": "USA"
+      },
+      "createdAt": {"$date": "2024-03-14T00:00:00Z"},
+      "lastLogin": {"$date": "2024-03-14T00:00:00Z"}
+    },
+    {
+      "_id": {"$oid": "65f1234567890123456789b5"},
+      "firstName": "Charlie",
+      "lastName": "Davis",
+      "email": "charlie.davis@example.com",
+      "phone": "+1234567894",
+      "address": {
+        "street": "654 Elm St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zipCode": "85001",
+        "country": "USA"
+      },
+      "createdAt": {"$date": "2024-03-14T00:00:00Z"},
+      "lastLogin": {"$date": "2024-03-14T00:00:00Z"}
+    },
+    {
+      "_id": {"$oid": "65f1234567890123456789b6"},
+      "firstName": "Diana",
+      "lastName": "Evans",
+      "email": "diana.evans@example.com",
+      "phone": "+1234567895",
+      "address": {
+        "street": "987 Cedar Rd",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zipCode": "19101",
+        "country": "USA"
+      },
+      "createdAt": {"$date": "2024-03-14T00:00:00Z"},
+      "lastLogin": {"$date": "2024-03-14T00:00:00Z"}
+    },
+    {
+      "_id": {"$oid": "65f1234567890123456789b7"},
+      "firstName": "Eve",
+      "lastName": "Foster",
+      "email": "eve.foster@example.com",
+      "phone": "+1234567896",
+      "address": {
+        "street": "123 Birch Blvd",
+        "city": "San Antonio",
+        "state": "TX",
+        "zipCode": "78201",
+        "country": "USA"
+      },
+      "createdAt": {"$date": "2024-03-14T00:00:00Z"},
+      "lastLogin": {"$date": "2024-03-14T00:00:00Z"}
+    },
+    {
+      "_id": {"$oid": "65f1234567890123456789b8"},
+      "firstName": "Frank",
+      "lastName": "Green",
+      "email": "frank.green@example.com",
+      "phone": "+1234567897",
+      "address": {
+        "street": "456 Spruce Ln",
+        "city": "San Diego",
+        "state": "CA",
+        "zipCode": "92101",
+        "country": "USA"
+      },
+      "createdAt": {"$date": "2024-03-14T00:00:00Z"},
+      "lastLogin": {"$date": "2024-03-14T00:00:00Z"}
+    },
+    {
+      "_id": {"$oid": "65f1234567890123456789b9"},
+      "firstName": "Grace",
+      "lastName": "Harris",
+      "email": "grace.harris@example.com",
+      "phone": "+1234567898",
+      "address": {
+        "street": "789 Willow St",
+        "city": "Dallas",
+        "state": "TX",
+        "zipCode": "75201",
+        "country": "USA"
+      },
+      "createdAt": {"$date": "2024-03-14T00:00:00Z"},
+      "lastLogin": {"$date": "2024-03-14T00:00:00Z"}
+    },
+    {
+      "_id": {"$oid": "65f1234567890123456789ba"},
+      "firstName": "Henry",
+      "lastName": "Ivy",
+      "email": "henry.ivy@example.com",
+      "phone": "+1234567899",
+      "address": {
+        "street": "321 Aspen Dr",
+        "city": "San Jose",
+        "state": "CA",
+        "zipCode": "95101",
+        "country": "USA"
+      },
+      "createdAt": {"$date": "2024-03-14T00:00:00Z"},
+      "lastLogin": {"$date": "2024-03-14T00:00:00Z"}
+    },
+    {
+      "_id": {"$oid": "65f1234567890123456789bb"},
+      "firstName": "Ivy",
+      "lastName": "Jones",
+      "email": "ivy.jones@example.com",
+      "phone": "+1234567800",
+      "address": {
+        "street": "654 Poplar St",
+        "city": "Austin",
+        "state": "TX",
+        "zipCode": "73301",
+        "country": "USA"
+      },
+      "createdAt": {"$date": "2024-03-14T00:00:00Z"},
+      "lastLogin": {"$date": "2024-03-14T00:00:00Z"}
+    },
+    {
+      "_id": {"$oid": "65f1234567890123456789bc"},
+      "firstName": "Jack",
+      "lastName": "King",
+      "email": "jack.king@example.com",
+      "phone": "+1234567801",
+      "address": {
+        "street": "987 Walnut Ave",
+        "city": "Jacksonville",
+        "state": "FL",
+        "zipCode": "32099",
+        "country": "USA"
+      },
+      "createdAt": {"$date": "2024-03-14T00:00:00Z"},
+      "lastLogin": {"$date": "2024-03-14T00:00:00Z"}
+    }
+  ]

@@ -1,0 +1,314 @@
+[
+  {
+    "_id": {"$oid": "65f1234567890123456789c3"},
+    "userId": {"$oid": "65f1234567890123456789b1"},
+    "orderDate": {"$date": "2024-03-12T15:00:00Z"},
+    "status": "shipped",
+    "products": [
+      {
+        "productId": {"$oid": "65f1234567890123456789a2"},
+        "quantity": 1,
+        "price": 899.99
+      }
+    ],
+    "shippingAddress": {
+      "street": "123 Main St",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10001",
+      "country": "USA"
+    },
+    "paymentMethod": "credit_card",
+    "totalAmount": 899.99,
+    "tax": 45.00,
+    "shippingCost": 15.00
+  },
+  {
+    "_id": {"$oid": "65f1234567890123456789c4"},
+    "userId": {"$oid": "65f1234567890123456789b2"},
+    "orderDate": {"$date": "2024-04-10T10:00:00Z"},
+    "status": "completed",
+    "products": [
+      {
+        "productId": {"$oid": "65f1234567890123456789a1"},
+        "quantity": 1,
+        "price": 1499.99
+      }
+    ],
+    "shippingAddress": {
+      "street": "456 Oak Ave",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zipCode": "90001",
+      "country": "USA"
+    },
+    "paymentMethod": "credit_card",
+    "totalAmount": 1499.99,
+    "tax": 75.00,
+    "shippingCost": 15.00
+  },
+  {
+    "_id": {"$oid": "65f1234567890123456789c5"},
+    "userId": {"$oid": "65f1234567890123456789b1"},
+    "orderDate": {"$date": "2024-05-08T14:00:00Z"},
+    "status": "completed",
+    "products": [
+      {
+        "productId": {"$oid": "65f1234567890123456789a3"},
+        "quantity": 2,
+        "price": 129.99
+      }
+    ],
+    "shippingAddress": {
+      "street": "123 Main St",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10001",
+      "country": "USA"
+    },
+    "paymentMethod": "paypal",
+    "totalAmount": 259.98,
+    "tax": 13.00,
+    "shippingCost": 10.00
+  },
+  {
+    "_id": {"$oid": "65f1234567890123456789c6"},
+    "userId": {"$oid": "65f1234567890123456789b3"},
+    "orderDate": {"$date": "2024-06-15T11:00:00Z"},
+    "status": "completed",
+    "products": [
+      {
+        "productId": {"$oid": "65f1234567890123456789a4"},
+        "quantity": 3,
+        "price": 299.99
+      }
+    ],
+    "shippingAddress": {
+      "street": "789 Pine St",
+      "city": "Chicago",
+      "state": "IL",
+      "zipCode": "60601",
+      "country": "USA"
+    },
+    "paymentMethod": "credit_card",
+    "totalAmount": 899.97,
+    "tax": 45.00,
+    "shippingCost": 20.00
+  },
+  {
+    "_id": {"$oid": "65f1234567890123456789c7"},
+    "userId": {"$oid": "65f1234567890123456789b4"},
+    "orderDate": {"$date": "2024-07-20T16:00:00Z"},
+    "status": "pending",
+    "products": [
+      {
+        "productId": {"$oid": "65f1234567890123456789a5"},
+        "quantity": 1,
+        "price": 499.99
+      }
+    ],
+    "shippingAddress": {
+      "street": "321 Elm St",
+      "city": "Houston",
+      "state": "TX",
+      "zipCode": "77001",
+      "country": "USA"
+    },
+    "paymentMethod": "paypal",
+    "totalAmount": 499.99,
+    "tax": 25.00,
+    "shippingCost": 15.00
+  },
+  {
+    "_id": {"$oid": "65f1234567890123456789c8"},
+    "userId": {"$oid": "65f1234567890123456789b5"},
+    "orderDate": {"$date": "2024-08-10T12:00:00Z"},
+    "status": "completed",
+    "products": [
+      {
+        "productId": {"$oid": "65f1234567890123456789a6"},
+        "quantity": 2,
+        "price": 199.99
+      }
+    ],
+    "shippingAddress": {
+      "street": "654 Maple St",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipCode": "94101",
+      "country": "USA"
+    },
+    "paymentMethod": "credit_card",
+    "totalAmount": 399.98,
+    "tax": 20.00,
+    "shippingCost": 10.00
+  },
+  {
+    "_id": {"$oid": "65f1234567890123456789c9"},
+    "userId": {"$oid": "65f1234567890123456789b6"},
+    "orderDate": {"$date": "2024-09-15T14:00:00Z"},
+    "status": "shipped",
+    "products": [
+      {
+        "productId": {"$oid": "65f1234567890123456789a7"},
+        "quantity": 1,
+        "price": 299.99
+      }
+    ],
+    "shippingAddress": {
+      "street": "987 Birch St",
+      "city": "Seattle",
+      "state": "WA",
+      "zipCode": "98101",
+      "country": "USA"
+    },
+    "paymentMethod": "paypal",
+    "totalAmount": 299.99,
+    "tax": 15.00,
+    "shippingCost": 10.00
+  },
+  {
+    "_id": {"$oid": "65f1234567890123456789ca"},
+    "userId": {"$oid": "65f1234567890123456789b7"},
+    "orderDate": {"$date": "2024-10-20T16:00:00Z"},
+    "status": "completed",
+    "products": [
+      {
+        "productId": {"$oid": "65f1234567890123456789a8"},
+        "quantity": 1,
+        "price": 999.99
+      }
+    ],
+    "shippingAddress": {
+      "street": "321 Cedar St",
+      "city": "Austin",
+      "state": "TX",
+      "zipCode": "73301",
+      "country": "USA"
+    },
+    "paymentMethod": "credit_card",
+    "totalAmount": 999.99,
+    "tax": 50.00,
+    "shippingCost": 15.00
+  },
+  {
+    "_id": {"$oid": "65f1234567890123456789cb"},
+    "userId": {"$oid": "65f1234567890123456789b8"},
+    "orderDate": {"$date": "2024-11-25T18:00:00Z"},
+    "status": "pending",
+    "products": [
+      {
+        "productId": {"$oid": "65f1234567890123456789a9"},
+        "quantity": 3,
+        "price": 49.99
+      }
+    ],
+    "shippingAddress": {
+      "street": "123 Spruce St",
+      "city": "Denver",
+      "state": "CO",
+      "zipCode": "80201",
+      "country": "USA"
+    },
+    "paymentMethod": "paypal",
+    "totalAmount": 149.97,
+    "tax": 7.50,
+    "shippingCost": 5.00
+  },
+  {
+    "_id": {"$oid": "65f1234567890123456789cc"},
+    "userId": {"$oid": "65f1234567890123456789b9"},
+    "orderDate": {"$date": "2024-12-30T20:00:00Z"},
+    "status": "completed",
+    "products": [
+      {
+        "productId": {"$oid": "65f1234567890123456789aa"},
+        "quantity": 1,
+        "price": 199.99
+      }
+    ],
+    "shippingAddress": {
+      "street": "456 Willow St",
+      "city": "Boston",
+      "state": "MA",
+      "zipCode": "02101",
+      "country": "USA"
+    },
+    "paymentMethod": "credit_card",
+    "totalAmount": 199.99,
+    "tax": 10.00,
+    "shippingCost": 5.00
+  },
+  {
+    "_id": {"$oid": "65f1234567890123456789cd"},
+    "userId": {"$oid": "65f1234567890123456789ba"},
+    "orderDate": {"$date": "2025-01-15T09:00:00Z"},
+    "status": "completed",
+    "products": [
+      {
+        "productId": {"$oid": "65f1234567890123456789ab"},
+        "quantity": 2,
+        "price": 79.99
+      }
+    ],
+    "shippingAddress": {
+      "street": "789 Oak St",
+      "city": "Miami",
+      "state": "FL",
+      "zipCode": "33101",
+      "country": "USA"
+    },
+    "paymentMethod": "paypal",
+    "totalAmount": 159.98,
+    "tax": 8.00,
+    "shippingCost": 5.00
+  },
+  {
+    "_id": {"$oid": "65f1234567890123456789ce"},
+    "userId": {"$oid": "65f1234567890123456789bb"},
+    "orderDate": {"$date": "2025-02-20T10:00:00Z"},
+    "status": "shipped",
+    "products": [
+      {
+        "productId": {"$oid": "65f1234567890123456789ac"},
+        "quantity": 1,
+        "price": 299.99
+      }
+    ],
+    "shippingAddress": {
+      "street": "123 Pine St",
+      "city": "Dallas",
+      "state": "TX",
+      "zipCode": "75201",
+      "country": "USA"
+    },
+    "paymentMethod": "credit_card",
+    "totalAmount": 299.99,
+    "tax": 15.00,
+    "shippingCost": 10.00
+  },
+  {
+    "_id": {"$oid": "65f1234567890123456789cf"},
+    "userId": {"$oid": "65f1234567890123456789bc"},
+    "orderDate": {"$date": "2025-03-25T11:00:00Z"},
+    "status": "completed",
+    "products": [
+      {
+        "productId": {"$oid": "65f1234567890123456789ad"},
+        "quantity": 3,
+        "price": 99.99
+      }
+    ],
+    "shippingAddress": {
+      "street": "456 Birch St",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zipCode": "85001",
+      "country": "USA"
+    },
+    "paymentMethod": "paypal",
+    "totalAmount": 299.97,
+    "tax": 15.00,
+    "shippingCost": 10.00
+  }
+]
